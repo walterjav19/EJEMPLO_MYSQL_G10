@@ -1,6 +1,8 @@
 drop database ejemplo;
 create database ejemplo;
 use ejemplo;
+
+
 CREATE TABLE Estudiante (
     id_estudiante INT PRIMARY KEY AUTO_INCREMENT,
     nombre_completo VARCHAR(100) NOT NULL,
@@ -121,7 +123,11 @@ VALUES
 (5, 1, '2024-01-24', 'Inscrito');
 
 
-/*SELECT columna1, columna2 FROM nombre_tabla;
+
+
+
+/*
+SELECT columna1, columna2 FROM nombre_tabla;
 
 
 SELECT * FROM nombre_tabla;
